@@ -1,17 +1,14 @@
 {
-  "name": "koa-webpack-boilerplate",
+  "name": "koa-passport-jwt",
   "version": "1.0.0",
-  "description": "Minimal boilerplate to create REST apps with Node6+, Koa2 and Webpack2. Supports Hot Module Replacement for seamless workflow.",
+  "description": "Passport based authentication for Koa using JSON Web Tokens",
   "keywords": [
     "koa",
-    "webpack",
-    "server",
-    "backend",
-    "hot module replacement",
-    "hmr",
-    "async",
-    "boilerplate",
-    "es6"
+    "jwt",
+    "passport",
+    "jsonwebtoken",
+    "passport-jwt",
+    "koa-passport"
   ],
   "scripts": {
     "clean": "rm -rf ./build",
@@ -22,14 +19,14 @@
   "author": "Siddharth Jain <sid26@ucla.edu>",
   "repository": {
     "type": "git",
-    "url": "https://github.com/sidjain26/koa-webpack-boilerplate"
+    "url": "https://github.com/sidjain26/koa-passport-jwt"
   },
   "license": "MIT",
   "devDependencies": {
     "babel-core": "^6.10.4",
     "babel-loader": "^6.2.4",
     "babel-plugin-transform-async-to-generator": "^6.8.0",
-    "uglify-js": "git+https://git@github.com/mishoo/UglifyJS2.git#harmony",
+    "uglify-js": "github:mishoo/UglifyJS2#harmony",
     "webpack": "^2.1.0-beta.14"
   },
   "dependencies": {
@@ -41,7 +38,6 @@
     "koa-logger": "^2.0.0",
     "koa-passport": "^3.0.0-rc.1",
     "koa-route": "^3.1.0",
-    "passport-local": "^1.0.0",
-    "pokedex-promise-v2": "^2.1.0"
+    "passport-local": "^1.0.0"
   }
 }
