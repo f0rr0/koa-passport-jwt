@@ -10,11 +10,22 @@ Koa authentication using [JSON Web Tokens](https://jwt.io) and [Passport](http:/
 
 ### How to use
 
+Note: You'll probably need to run 3 different shell tabs/windows.
+
+Install redis and start a redis server. 
+```
+brew install redis
+redis-server
+```
+Clone the repo, install dependencies and build in watch mode.
 ```
 git clone https://github.com/sidjain26/koa-passport-jwt
 npm i
 npm run watch
-npm start # in new shell tab
+```
+Start the server.
+```
+npm start
 ```
 
 ### License

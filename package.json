@@ -6,6 +6,7 @@
     "koa",
     "jwt",
     "passport",
+    "redis",
     "jsonwebtoken",
     "passport-jwt",
     "koa-passport"
@@ -13,7 +14,7 @@
   "scripts": {
     "clean": "rm -rf ./build",
     "build:prod": "npm run clean && `npm bin`/webpack --env.prod -p",
-    "watch": "npm run clean && `npm bin`/webpack --env.dev --watch --verbose --hot",
+    "watch": "npm run clean && `npm bin`/webpack --watch --verbose --hot",
     "start": "node ./build/server.js"
   },
   "author": "Siddharth Jain <sid26@ucla.edu>",
@@ -38,6 +39,10 @@
     "koa-logger": "^2.0.0",
     "koa-passport": "^3.0.0-rc.1",
     "koa-route": "^3.1.0",
-    "passport-local": "^1.0.0"
+    "passport-local": "^1.0.0",
+    "redis": "^2.6.2"
+  },
+  "engines": {
+    "node": ">= 6.4.0"
   }
 }
