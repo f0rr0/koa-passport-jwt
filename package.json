@@ -25,19 +25,19 @@
   "license": "MIT",
   "devDependencies": {
     "babel-core": "^6.10.4",
-    "babel-loader": "^6.2.4",
+    "babel-loader": "^7.1.5",
     "babel-plugin-transform-async-to-generator": "^6.8.0",
     "uglify-js": "github:mishoo/UglifyJS2#harmony",
-    "webpack": "^2.1.0-beta.14"
+    "webpack": "^4.16.4"
   },
   "dependencies": {
-    "es6-promisify": "^4.1.0",
-    "jsonwebtoken": "^7.1.9",
+    "es6-promisify": "^6.0.0",
+    "jsonwebtoken": "^8.3.0",
     "koa": "^2.0.0",
-    "koa-bodyparser": "^3.2.0",
-    "koa-jwt": "^2.0.1",
-    "koa-logger": "^2.0.0",
-    "koa-passport": "^3.0.0-rc.1",
+    "koa-bodyparser": "^4.2.1",
+    "koa-jwt": "^3.3.2",
+    "koa-logger": "^3.2.0",
+    "koa-passport": "^4.1.0",
     "koa-route": "^3.1.0",
     "passport-local": "^1.0.0",
     "redis": "^2.6.2"
